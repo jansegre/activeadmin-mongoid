@@ -7,3 +7,4 @@ Bundler.setup
 
 require 'detect_rails_version'
 ENV['RAILS'] = detect_rails_version
+
