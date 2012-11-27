@@ -1,9 +1,8 @@
 # ActiveAdmin::Mongoid
 
 ActiveAdmin hacks to support Mongoid.
-Some ActiveAdmin features are disabled:
 
-- comments
+All active admin features seem to be working, including filters and comments.
 
 For more on Mongoid support in ActiveAdmin see [this issue](https://github.com/gregbell/active_admin/issues/26).
 
