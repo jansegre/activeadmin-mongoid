@@ -1,6 +1,7 @@
-class ActiveAdmin::FilterFormBuilder
+class ActiveAdmin::Filters::FormBuilder
   def default_input_type(method, options = {})
     if column = column_for(method)
+      p method, column
       case column.type.name.downcase.to_sym
       when :date, :datetime, :time
         return :date_range
